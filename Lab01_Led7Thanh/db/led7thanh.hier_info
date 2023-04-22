@@ -1,0 +1,103 @@
+|led7thanh
+x1[0] => x1[0].IN1
+x1[1] => x1[1].IN1
+x1[2] => x1[2].IN1
+x1[3] => x1[3].IN1
+x2[0] => x2[0].IN1
+x2[1] => x2[1].IN1
+x2[2] => x2[2].IN1
+x2[3] => x2[3].IN1
+x3[0] => x3[0].IN1
+x3[1] => x3[1].IN1
+x3[2] => x3[2].IN1
+x3[3] => x3[3].IN1
+x4[0] => x4[0].IN1
+x4[1] => x4[1].IN1
+x4[2] => x4[2].IN1
+x4[3] => x4[3].IN1
+abcdefg_1[0] << giaima7thanh:led1.abcdefg
+abcdefg_1[1] << giaima7thanh:led1.abcdefg
+abcdefg_1[2] << giaima7thanh:led1.abcdefg
+abcdefg_1[3] << giaima7thanh:led1.abcdefg
+abcdefg_1[4] << giaima7thanh:led1.abcdefg
+abcdefg_1[5] << giaima7thanh:led1.abcdefg
+abcdefg_1[6] << giaima7thanh:led1.abcdefg
+abcdefg_2[0] << giaima7thanh:led2.abcdefg
+abcdefg_2[1] << giaima7thanh:led2.abcdefg
+abcdefg_2[2] << giaima7thanh:led2.abcdefg
+abcdefg_2[3] << giaima7thanh:led2.abcdefg
+abcdefg_2[4] << giaima7thanh:led2.abcdefg
+abcdefg_2[5] << giaima7thanh:led2.abcdefg
+abcdefg_2[6] << giaima7thanh:led2.abcdefg
+abcdefg_3[0] << giaima7thanh:led3.abcdefg
+abcdefg_3[1] << giaima7thanh:led3.abcdefg
+abcdefg_3[2] << giaima7thanh:led3.abcdefg
+abcdefg_3[3] << giaima7thanh:led3.abcdefg
+abcdefg_3[4] << giaima7thanh:led3.abcdefg
+abcdefg_3[5] << giaima7thanh:led3.abcdefg
+abcdefg_3[6] << giaima7thanh:led3.abcdefg
+abcdefg_4[0] << giaima7thanh:led4.abcdefg
+abcdefg_4[1] << giaima7thanh:led4.abcdefg
+abcdefg_4[2] << giaima7thanh:led4.abcdefg
+abcdefg_4[3] << giaima7thanh:led4.abcdefg
+abcdefg_4[4] << giaima7thanh:led4.abcdefg
+abcdefg_4[5] << giaima7thanh:led4.abcdefg
+abcdefg_4[6] << giaima7thanh:led4.abcdefg
+
+
+|led7thanh|giaima7thanh:led1
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+abcdefg[0] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[1] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led7thanh|giaima7thanh:led2
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+abcdefg[0] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[1] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led7thanh|giaima7thanh:led3
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+abcdefg[0] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[1] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|led7thanh|giaima7thanh:led4
+x[0] => Decoder0.IN3
+x[1] => Decoder0.IN2
+x[2] => Decoder0.IN1
+x[3] => Decoder0.IN0
+abcdefg[0] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[1] <= abcdefg.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[3] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[4] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[5] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+abcdefg[6] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

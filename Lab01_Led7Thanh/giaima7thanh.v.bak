@@ -1,0 +1,20 @@
+module giaima7thanh(
+	input wire [3:0] x,
+	output reg  [6:0] abcdefg
+	);
+always @(*) begin
+	case (x)
+		4'b0000 : assign abcdefg = 7'b0000001;
+		4'b0001 : assign abcdefg = 7'b1001111;
+		4'b0010 : assign abcdefg = 7'b0010010;
+		4'b0011 : assign abcdefg = 7'b0000110;
+		4'b0100 : assign abcdefg = 7'b1001100;
+		4'b0101 : assign abcdefg = 7'b0100100;
+		4'b0110 : assign abcdefg = 7'b0100000;
+		4'b0111 : assign abcdefg = 7'b0001111;
+		4'b1000 : assign abcdefg = 7'b0000000;
+		4'b1001 : assign abcdefg = 7'b0000100;
+		default : assign abcdefg = 7'b0000001;
+	endcase
+end
+endmodule

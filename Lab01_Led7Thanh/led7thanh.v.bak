@@ -1,0 +1,6 @@
+module led7thanh(
+	input wire x[4],
+	output reg abcdefg[7]
+	);
+	giaima7thanh_topmodule(.x(x[0]),.abcdefg(abcdefg[0]));
+endmodule
